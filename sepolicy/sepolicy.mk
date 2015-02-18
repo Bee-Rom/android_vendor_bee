@@ -4,7 +4,7 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/cm/sepolicy
+    vendor/bee/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file.te \
@@ -30,7 +30,6 @@ BOARD_SEPOLICY_UNION += \
     sysinit.te \
     system.te \
     system_app.te \
-    system_server.te \
     ueventd.te \
     uncrypt.te \
     userinit.te \
